@@ -1,0 +1,29 @@
+:root{
+    --card:linear-gradient(#f72585,#b5179e,#7209b7,#560bad,#480ca8,#3a0ca3,#3f37c9,#4361ee,#4895ef,#4cc9f0)
+}
+body {
+    margin: 20px;
+    font-family:Garamond;
+}
+
+.avatar {
+    width: 150px;
+    height:150px;
+    object-fit: cover;
+    border:3px solid grey
+    border-radius:50px;
+    box-shadow:10px 10px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background:var(--card);
+    color: gray;
+    border-bottom: 6px solid grey;
+
+}
